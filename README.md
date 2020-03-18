@@ -8,7 +8,7 @@ Please use GitHub or Bitbucket to publish your source code.
 
 #Installation
 
-Execut "mvn spring-boot:run" command in project root folder
+Execut `mvn spring-boot:run` command in project root folder
 
 #REST api description
 ```
