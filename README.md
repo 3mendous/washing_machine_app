@@ -1,4 +1,4 @@
-#Task description
+# Task description
 
 The task is to design and implement a backend service to control an appliance such as a wash machine or an oven. The API should be REST based and the state of the appliance should be persisted to any form of persistent storage. There is no need for any frontend but we expect there to be a README.md file with build directions and examples of how to invoke the REST API (e.g. curl).
 
@@ -6,11 +6,11 @@ The project should be implemented using Java or Node.js. Feel free to use any 3r
 
 Please use GitHub or Bitbucket to publish your source code.
 
-#Installation
+# Installation
 
 Execut `mvn spring-boot:run` command in project root folder
 
-#REST api description
+# REST api description
 ```
 curl localhost:8080/start?name={name} - start washing program with given name
 curl localhost:8080/pause - pause program
