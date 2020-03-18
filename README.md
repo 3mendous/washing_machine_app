@@ -11,7 +11,7 @@ Please use GitHub or Bitbucket to publish your source code.
 Execut "mvn spring-boot:run" command in project root folder
 
 #REST api description
-
+'''
 curl localhost:8080/start?name={name} - start washing program with given name
 curl localhost:8080/pause - pause program
 curl localhost:8080/continue - continue paused program
@@ -41,3 +41,4 @@ curl -H "Content-Type: application/json"
 \"spinning_speed\":{spinning_speed}
 } 
 localhost:8080/update?name={name} - update program with given parameters
+'''
